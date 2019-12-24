@@ -1,0 +1,13 @@
+spring:
+  security:
+    user:
+      name: admin
+      password: admin
+  datasource:
+    url: jdbc:mysql://49.233.90.124:3306/spring?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false
+    username: root
+    password: root
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  type-aliases-package: com.lsh.security.entiy
